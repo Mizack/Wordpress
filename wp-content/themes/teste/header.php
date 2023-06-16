@@ -10,4 +10,9 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <h3>AI DENTO</h3>
+<?php
+the_custom_logo();
+wp_nav_menu([
+    "menu"=>'menu-navegacao'
+]);
+?>
